@@ -25,12 +25,14 @@ inputMemberId.onkeypress = function (e) {
     if (e.keyCode == 13) {
         memberId = inputMemberId.value;
         openModal();
+        return false;
     }
 }
 
 function openModal() {
     var today = new Date();
     var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
     if (btnMemberIn != null) {
         document.getElementById("myModalContent").innerHTML = "Member registered entry " + memberId + " at " + time;
     }
