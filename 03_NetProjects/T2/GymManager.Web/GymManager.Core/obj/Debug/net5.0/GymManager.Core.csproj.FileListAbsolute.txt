@@ -1,0 +1,12 @@
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\03_NetProjects\T2\GymManager.Web\GymManager.Core\bin\Debug\net5.0\GymManager.Core.deps.json
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\03_NetProjects\T2\GymManager.Web\GymManager.Core\bin\Debug\net5.0\GymManager.Core.dll
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\03_NetProjects\T2\GymManager.Web\GymManager.Core\bin\Debug\net5.0\ref\GymManager.Core.dll
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\03_NetProjects\T2\GymManager.Web\GymManager.Core\bin\Debug\net5.0\GymManager.Core.pdb
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\03_NetProjects\T2\GymManager.Web\GymManager.Core\obj\Debug\net5.0\GymManager.Core.csproj.AssemblyReference.cache
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\03_NetProjects\T2\GymManager.Web\GymManager.Core\obj\Debug\net5.0\GymManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\03_NetProjects\T2\GymManager.Web\GymManager.Core\obj\Debug\net5.0\GymManager.Core.AssemblyInfoInputs.cache
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\03_NetProjects\T2\GymManager.Web\GymManager.Core\obj\Debug\net5.0\GymManager.Core.AssemblyInfo.cs
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\03_NetProjects\T2\GymManager.Web\GymManager.Core\obj\Debug\net5.0\GymManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\03_NetProjects\T2\GymManager.Web\GymManager.Core\obj\Debug\net5.0\GymManager.Core.dll
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\03_NetProjects\T2\GymManager.Web\GymManager.Core\obj\Debug\net5.0\ref\GymManager.Core.dll
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\03_NetProjects\T2\GymManager.Web\GymManager.Core\obj\Debug\net5.0\GymManager.Core.pdb
