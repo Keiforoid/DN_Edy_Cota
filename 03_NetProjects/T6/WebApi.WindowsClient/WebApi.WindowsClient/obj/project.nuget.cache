@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WslbjLeAcYRwnIw5OiNHGRhTGW4lSi1xdZZM17MjwZ8belPB9qs0YB2AtiN35F1/+KYmXp70Nok4gTydkQOE/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\03_NetProjects\\T6\\WebApi.WindowsClient\\WebApi.WindowsClient\\WebApi.WindowsClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edy\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "8KcIUuR/H4asihrd71h9yuBRN9ij5ZznP7U++964M0THvlKn1pbcnKaKszuOdkFZdiqgtFAOAzooaeNzoCEWAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\03_NetProjects\\T6\\WebApi.WindowsClient\\Api.Example\\Api.Example.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edy\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Edy\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Edy\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Edy\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Edy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Edy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
