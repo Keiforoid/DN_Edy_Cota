@@ -1,0 +1,35 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+main > .container {
+    padding: 60px 15px 0;
+}
+
+.navbar-logo {
+    width: 60px;
+    padding-right: 20px;
+}
+
+.bg-blue {
+    --bs-bg-opacity: 1;
+    background-color: #8E2126 !important;
+}
+
+nav {
+    font-family: Impact;
+}
+
+.username {
+    font-size: 1.25rem;
+}
