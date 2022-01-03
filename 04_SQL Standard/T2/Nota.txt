@@ -1,0 +1,4 @@
+MINUTO 23:16
+No me dejo insertar las ciudades con idcountry = 6 por que no existia el pais, por alguna razon no me paso como en el video de que si se insertaba aun cuando estaba declarada como llave foranea.
+
+Dejo foto de evidencia.
