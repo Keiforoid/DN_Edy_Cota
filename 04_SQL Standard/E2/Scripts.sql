@@ -1,4 +1,3 @@
-
 -- 1. Insertar al menos 5 registros por cada tabla creada en el diseño del ejercicio anterior.
 
 INSERT INTO city (name) VALUES ('Tijuana');
@@ -55,31 +54,24 @@ INSERT INTO measuretype (name, createdOn) VALUES ('Pounds', now());
 INSERT INTO measuretype (name, createdOn) VALUES ('Ounce', now());
 INSERT INTO measuretype (name, createdOn) VALUES ('Gallon', now());
 
-INSERT INTO producttypes (idProductType, name, createdOn) VALUES ('Food', now());
-INSERT INTO producttypes (idProductType, name, createdOn) VALUES ('Beverages', now());
-INSERT INTO producttypes (idProductType, name, createdOn) VALUES ('Supplements', now());
-INSERT INTO producttypes (idProductType, name, createdOn) VALUES ('Own merchandise', now());
-INSERT INTO producttypes (idProductType, name, createdOn) VALUES ('Equipment', now());
-
-INSERT INTO producttypes (name, description, price, idMeasureType, measure, createdOn) VALUES ('Nature valley bar', 'Honey peanut butter protein bar.', 20.00, 2, 35.00, now());
-INSERT INTO producttypes (name, description, price, idMeasureType, measure, createdOn) VALUES ('Kirland chocolate chip cokies', 'Chocolate flavor cokies with a lot of protein.', 18.00, 2, 34.00, now());
-INSERT INTO producttypes (name, description, price, idMeasureType, measure, createdOn) VALUES ('Optimal nutrition protein', 'Well balance protein powder with suplements.', 800.00, 5, 2.07, now());
-INSERT INTO producttypes (name, description, price, idMeasureType, measure, createdOn) VALUES ('Milky protein', 'Protein powder for milk mixing.', 350.00, 2, 850.00, now());
-INSERT INTO producttypes (name, description, price, idMeasureType, measure, createdOn) VALUES ('Pure protein shot', 'Fully concentrate protein..', 950.00, 5, 2.70, now());
-INSERT INTO producttypes (name, description, price, idMeasureType, measure, createdOn) VALUES ('Powerade', 'Energy fill beverage', 18.00, 4, 828.00, now());
+INSERT INTO producttypes (name, createdOn) VALUES ('Food', now());
+INSERT INTO producttypes (name, createdOn) VALUES ('Beverages', now());
+INSERT INTO producttypes (name, createdOn) VALUES ('Supplements', now());
+INSERT INTO producttypes (name, createdOn) VALUES ('Own merchandise', now());
+INSERT INTO producttypes (name, createdOn) VALUES ('Equipment', now());
 
 INSERT INTO inventory (name, idProductType, description, idMesureType, price, measure, cuantity, createdOn) 
-VALUES ('Nature valley bar', 1, 'Honey peanut butter protein bar.', 20.00, 2, 35.00, 28, now());
+VALUES ('Nature valley bar', 1, 'Honey peanut butter protein bar.',  2, 20.00, 35.00, 28, now());
 INSERT INTO inventory (name, idProductType, description, idMesureType, price, measure, cuantity, createdOn) 
-VALUES ('Kirland chocolate chip cokies', 1, 'Chocolate flavor cokies with a lot of protein.', 18.00, 2, 34.00, 14, now());
+VALUES ('Kirland chocolate chip cokies', 1, 'Chocolate flavor cokies with a lot of protein.', 2, 18.00, 34.00, 14, now());
 INSERT INTO inventory (name, idProductType, description, idMesureType, price, measure, cuantity, createdOn) 
-VALUES ('Optimal nutrition protein', 3, 'Well balance protein powder with suplements.', 800.00, 5, 2.07, 15, now());
+VALUES ('Optimal nutrition protein', 3, 'Well balance protein powder with suplements.', 5, 800.00, 2.07, 15, now());
 INSERT INTO inventory (name, idProductType, description, idMesureType, price, measure, cuantity, createdOn) 
-VALUES ('Milky protein', 3, 'Protein powder for milk mixing.', 350.00, 2, 850.00, 30, now());
+VALUES ('Milky protein', 3, 'Protein powder for milk mixing.', 2, 350.00, 850.00, 30, now());
 INSERT INTO inventory (name, idProductType, description, idMesureType, price, measure, cuantity, createdOn) 
-VALUES ('Pure protein shot', 3,'Fully concentrate protein..', 950.00, 5, 2.70, 0, now());
+VALUES ('Pure protein shot', 3,'Fully concentrate protein..', 5, 950.00, 2.70, 0, now());
 INSERT INTO inventory (name, idProductType, description, idMesureType, price, measure, cuantity, createdOn) 
-VALUES ('Powerade', 2, 'Energy fill beverage', 18.00, 4, 828.00, 12, now());
+VALUES ('Powerade', 2, 'Energy fill beverage', 4, 18.00, 828.00, 12, now());
 
 INSERT INTO sales (datetime, idUsers) VALUES ('2021-11-12', 2);
 INSERT INTO sales (datetime, idUsers) VALUES ('2021-11-12', 5);
@@ -87,14 +79,14 @@ INSERT INTO sales (datetime, idUsers) VALUES ('2021-11-13', 2);
 INSERT INTO sales (datetime, idUsers) VALUES ('2021-11-14', 2);
 INSERT INTO sales (datetime, idUsers) VALUES ('2021-11-14', 5);
 
-INSERT INTO salesproducttype (idSales, idInventory, cuantity) VALUES (1, 1, 1);
-INSERT INTO salesproducttype (idSales, idInventory, cuantity) VALUES (1, 2, 1);
-INSERT INTO salesproducttype (idSales, idInventory, cuantity) VALUES (2, 3, 2);
-INSERT INTO salesproducttype (idSales, idInventory, cuantity) VALUES (3, 3, 2);
-INSERT INTO salesproducttype (idSales, idInventory, cuantity) VALUES (3, 1, 1);
-INSERT INTO salesproducttype (idSales, idInventory, cuantity) VALUES (4, 5, 1);
-INSERT INTO salesproducttype (idSales, idInventory, cuantity) VALUES (5, 6, 1);
-INSERT INTO salesproducttype (idSales, idInventory, cuantity) VALUES (5, 1, 1);
+INSERT INTO salesinventory (idSales, idInventory, cuantity) VALUES (1, 1, 1);
+INSERT INTO salesinventory (idSales, idInventory, cuantity) VALUES (1, 2, 1);
+INSERT INTO salesinventory (idSales, idInventory, cuantity) VALUES (2, 3, 2);
+INSERT INTO salesinventory (idSales, idInventory, cuantity) VALUES (3, 3, 2);
+INSERT INTO salesinventory (idSales, idInventory, cuantity) VALUES (3, 1, 1);
+INSERT INTO salesinventory (idSales, idInventory, cuantity) VALUES (4, 5, 1);
+INSERT INTO salesinventory (idSales, idInventory, cuantity) VALUES (5, 6, 1);
+INSERT INTO salesinventory (idSales, idInventory, cuantity) VALUES (5, 1, 1);
 
 -- 2. Crear una vista que devuelva el listado de usuarios con los roles que tiene asignados.
 
@@ -108,12 +100,8 @@ SELECT * FROM usuarios_roles;
 -- 3. Crear una vista que devuelva el listado de productos en existencia con el tipo de producto al que pertenece.
 
 CREATE VIEW products_in_existence AS
-SELECT pt.idProductType ,pt.name, i.cuantity FROM producttypes pt
-INNER JOIN inventory i on i.idProductType = pt.idProductType
-WHERE i.cuantity > 0;
-
 SELECT i.name, pt.name, i.cuantity FROM inventory i
-INNER JOIN idProductType pt on i.idProductType = pt.idProductType
+INNER JOIN producttypes pt on i.idProductType = pt.idProductType
 WHERE i.cuantity > 0;
 
 SELECT * FROM products_in_existence;
@@ -124,6 +112,13 @@ SELECT t.idProductType, t.name,  t.selled FROM (
 	SELECT pt.idProductType, pt.name, sum(spt.cuantity) AS selled FROM salesproducttype spt
 	INNER JOIN producttypes pt on spt.idProductType = pt.idProductType 
 	GROUP BY pt.idProductType
+) AS t ORDER BY t.selled DESC LIMIT 1;
+
+
+SELECT t.idInventory, t.name,  t.selled FROM (
+	SELECT i.idInventory, i.name, sum(si.cuantity) AS selled FROM inventory i
+	INNER JOIN salesinventory si on si.idInventory = i.idInventory 
+	GROUP BY i.name
 ) AS t ORDER BY t.selled DESC LIMIT 1;
 
 -- 5. Seleccionar el último miembro registrado con el tipo de membresía adquirida.
