@@ -1,0 +1,16 @@
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\bin\Debug\net5.0\Linq.Examples.exe
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\bin\Debug\net5.0\Linq.Examples.deps.json
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\bin\Debug\net5.0\Linq.Examples.runtimeconfig.json
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\bin\Debug\net5.0\Linq.Examples.runtimeconfig.dev.json
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\bin\Debug\net5.0\Linq.Examples.dll
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\bin\Debug\net5.0\ref\Linq.Examples.dll
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\bin\Debug\net5.0\Linq.Examples.pdb
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\obj\Debug\net5.0\Linq.Examples.csproj.AssemblyReference.cache
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\obj\Debug\net5.0\Linq.Examples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\obj\Debug\net5.0\Linq.Examples.AssemblyInfoInputs.cache
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\obj\Debug\net5.0\Linq.Examples.AssemblyInfo.cs
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\obj\Debug\net5.0\Linq.Examples.csproj.CoreCompileInputs.cache
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\obj\Debug\net5.0\Linq.Examples.dll
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\obj\Debug\net5.0\ref\Linq.Examples.dll
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\obj\Debug\net5.0\Linq.Examples.pdb
+C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\T1\Linq.Examples\Linq.Examples\obj\Debug\net5.0\Linq.Examples.genruntimeconfig.cache
