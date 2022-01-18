@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4SAhjYqhBWsserdMDWDnz955Jpl0mkOP94nO2EYampj6q/kLPf8/464/Gl0gFCYAHDM0TZr6++SBOJgQI1/+Tw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\T2\\DataAccess.Example\\DataAccess.Example\\DataAccess.Example.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edy\\.nuget\\packages\\mysqlconnector\\1.3.14\\mysqlconnector.1.3.14.nupkg.sha512"
+  ],
+  "logs": []
+}
