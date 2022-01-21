@@ -1,0 +1,81 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model GymManager.Core.Members.Member
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+@section Head{
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <link href="~/Lib/jqueryui/jquery-ui.min.css" rel="stylesheet" />
+
+    <link href="~/Lib/jqueryui/jquery-ui.structure.min.css" rel="stylesheet" />
+
+    <link href="~/Lib/jqueryui/jquery-ui.theme.min.css" rel="stylesheet" />
+}
+
+@section Scripts{
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="~/Lib/jqueryui/jquery-ui.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+    <script src="~/MyScripts/member.js"></script>
+}
+
+@section HeaderRight{
+    <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="card mt-3 col-md-6">
+            <div class="card-header">
+                <h1 class="mt-5">Member Out</h1>
+            </div>
+            <div class="card-body">
+                <form action="/" method="post">
+                    <div class="form-group">
+                        <label for="inputMemberId">Member Id</label>
+                        <input type="text" class="form-control" id="inputMemberId" placeholder="Insert your member id">
+                        <small id="memberIdHelp" class="form-text text-muted">We'll never share your member id with anyone else.</small>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button type="button" id="registerMemberOut" class="btn btn-primary mt-3" name="identifierButton">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="memberIdModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Registered</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="myModalContent">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
