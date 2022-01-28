@@ -1,0 +1,12 @@
+C:\Users\Edy\Documents\Proyectos\DataAccess.Exercise\DataAccess.Exercise\bin\Debug\net5.0\DataAccess.Exercise.deps.json
+C:\Users\Edy\Documents\Proyectos\DataAccess.Exercise\DataAccess.Exercise\bin\Debug\net5.0\DataAccess.Exercise.dll
+C:\Users\Edy\Documents\Proyectos\DataAccess.Exercise\DataAccess.Exercise\bin\Debug\net5.0\ref\DataAccess.Exercise.dll
+C:\Users\Edy\Documents\Proyectos\DataAccess.Exercise\DataAccess.Exercise\bin\Debug\net5.0\DataAccess.Exercise.pdb
+C:\Users\Edy\Documents\Proyectos\DataAccess.Exercise\DataAccess.Exercise\obj\Debug\net5.0\DataAccess.Exercise.csproj.AssemblyReference.cache
+C:\Users\Edy\Documents\Proyectos\DataAccess.Exercise\DataAccess.Exercise\obj\Debug\net5.0\DataAccess.Exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edy\Documents\Proyectos\DataAccess.Exercise\DataAccess.Exercise\obj\Debug\net5.0\DataAccess.Exercise.AssemblyInfoInputs.cache
+C:\Users\Edy\Documents\Proyectos\DataAccess.Exercise\DataAccess.Exercise\obj\Debug\net5.0\DataAccess.Exercise.AssemblyInfo.cs
+C:\Users\Edy\Documents\Proyectos\DataAccess.Exercise\DataAccess.Exercise\obj\Debug\net5.0\DataAccess.Exercise.csproj.CoreCompileInputs.cache
+C:\Users\Edy\Documents\Proyectos\DataAccess.Exercise\DataAccess.Exercise\obj\Debug\net5.0\DataAccess.Exercise.dll
+C:\Users\Edy\Documents\Proyectos\DataAccess.Exercise\DataAccess.Exercise\obj\Debug\net5.0\ref\DataAccess.Exercise.dll
+C:\Users\Edy\Documents\Proyectos\DataAccess.Exercise\DataAccess.Exercise\obj\Debug\net5.0\DataAccess.Exercise.pdb
