@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XRb5Plm84xJ32aBt7BfV8Wt8UZXSpUXDRNAlXYXFDkLTOKGfqYZFqqhijw3IIrv6KPOoeHH3anCwkcTPj6bssQ==",
+  "dgSpecHash": "i9HCIoPGkimoCQs/p1FFXwL9yWgT52CMsq03i4l/ojF3ymjZeyXRy45JPQCijrHvrjDBgZZw1F4+0arGEgH77g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Edy\\Documents\\Proyectos\\DataAccess.Exercise\\DataAccess.Exercise\\DataAccess.Exercise.csproj",
+  "projectFilePath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E1\\DataAccess.Exercise\\DataAccess.Exercise\\DataAccess.Exercise.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Edy\\.nuget\\packages\\mysqlconnector\\1.3.14\\mysqlconnector.1.3.14.nupkg.sha512"
   ],

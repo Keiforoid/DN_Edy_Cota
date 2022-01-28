@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cBCjwRXBSTXjPff3R/gmHqEV4Ilc70hiyojCQi3ZFrIKAfuAWQ+CEUckJ9QtkO4w6U7xbavgsKT5MQZEUah+Vg==",
+  "dgSpecHash": "zOCUqwCvnG+j23JuefvEMSzPQ37gaBsBKgbGAC7A9bZjzRIpqf/xrN0WeKgIa32Sp50JVwY3wTMM4yQNAlcEgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Edy\\Documents\\Proyectos\\DataAccess.Exercise\\WebApi.Exercise\\WebApi.Exercise.csproj",
+  "projectFilePath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E1\\DataAccess.Exercise\\WebApi.Exercise\\WebApi.Exercise.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Edy\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Edy\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

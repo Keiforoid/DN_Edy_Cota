@@ -257,11 +257,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Edy\\Documents\\Proyectos\\DataAccess.Exercise\\WebApi.Exercise\\WebApi.Exercise.csproj",
+      "projectUniqueName": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E1\\DataAccess.Exercise\\WebApi.Exercise\\WebApi.Exercise.csproj",
       "projectName": "WebApi.Exercise",
-      "projectPath": "C:\\Users\\Edy\\Documents\\Proyectos\\DataAccess.Exercise\\WebApi.Exercise\\WebApi.Exercise.csproj",
+      "projectPath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E1\\DataAccess.Exercise\\WebApi.Exercise\\WebApi.Exercise.csproj",
       "packagesPath": "C:\\Users\\Edy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Edy\\Documents\\Proyectos\\DataAccess.Exercise\\WebApi.Exercise\\obj\\",
+      "outputPath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E1\\DataAccess.Exercise\\WebApi.Exercise\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Edy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -278,8 +278,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Edy\\Documents\\Proyectos\\DataAccess.Exercise\\DataAccess.Exercise\\DataAccess.Exercise.csproj": {
-              "projectPath": "C:\\Users\\Edy\\Documents\\Proyectos\\DataAccess.Exercise\\DataAccess.Exercise\\DataAccess.Exercise.csproj"
+            "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E1\\DataAccess.Exercise\\DataAccess.Exercise\\DataAccess.Exercise.csproj": {
+              "projectPath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E1\\DataAccess.Exercise\\DataAccess.Exercise\\DataAccess.Exercise.csproj"
             }
           }
         }
