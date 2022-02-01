@@ -1,0 +1,18 @@
+﻿@model GymManager.Web.Models.MemberListViewModel
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<div class="container">
+    <h1 class="mt-5">Membership renewal</h1>
+
+    <form asp-action="Renewal" class="row">
+         <input type="text" class="form-control" name="SearchString" />
+         <button type="submit" class="btn btn-primary mb-1 col-2">Search</button>
+    </form>
+
+    @await Html.PartialAsync("~/Views/Shared/_RenewalList.cshtml", Model.Members)
+
+</div>

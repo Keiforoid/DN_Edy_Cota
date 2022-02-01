@@ -21,8 +21,7 @@ namespace GymManager.DataAccess.Repositories
             var membershipType = await Context.City.FindAsync(entity.MembershipType.Id);
             entity.City = null;
             await Context.Members.AddAsync(entity);
-            city.Members.Add(entity);
-            membershipType.Members.Add(entity);
+
 
             await Context.SaveChangesAsync();
 
@@ -33,6 +32,13 @@ namespace GymManager.DataAccess.Repositories
         {
             var member = await Context.Members.Include(x => x.City).FirstOrDefaultAsync(x => x.Id == id);
             return member;
+        }
+
+        public override IQueryable<Member> GetAll()
+        {
+            var member = Context.Members.Include(x => x.MembershipType);
+            return member;
+
         }
     }
 }

@@ -10,6 +10,7 @@ namespace GymManager.ApplicationServices.Members
     public interface IMemberAppService
     {
         Task <List<Member>> GetMembersAsync();
+        Task<List<Member>> GetMembersAsync(string filteredParameter);
 
         Task<int> AddMemberAsync(Member member);
 
