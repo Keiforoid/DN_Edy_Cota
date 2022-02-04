@@ -2,6 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <None Update="Reports\MemberAssistsDataSet.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Update="Reports\MembersDataSet.xsd">
       <SubType>Designer</SubType>
     </None>

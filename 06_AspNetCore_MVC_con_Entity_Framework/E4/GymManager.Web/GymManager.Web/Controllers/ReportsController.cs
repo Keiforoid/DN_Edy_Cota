@@ -1,4 +1,6 @@
-﻿using GymManager.DataAccess.Reports;
+﻿using GymManager.DataAccess;
+using GymManager.DataAccess.Entities;
+using GymManager.DataAccess.Reports;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Reporting.NETCore;
@@ -15,6 +17,8 @@ namespace GymManager.Web.Controllers
     {
         private readonly IGeneratePdf _generatePdf;
         private readonly IWebHostEnvironment _enviroment;
+
+        
 
         public ReportsController(IWebHostEnvironment enviroment, IGeneratePdf generatePdf)
         {
@@ -37,6 +41,7 @@ namespace GymManager.Web.Controllers
             report.LoadReportDefinition(reportDefinition);
 
             MembersDataSet dataSet = new MembersDataSet();
+
             Random random = new Random();
 
             string[] membershipTypes = new string[] { "Basic", "Family", "Gold" };
@@ -70,6 +75,56 @@ namespace GymManager.Web.Controllers
             });
 
             report.DataSources.Add(new ReportDataSource("Members", (System.Data.DataTable)dataSet.Member));
+
+            streamBytes = report.Render("PDF", null, out mimeType, out encoding, out filenameExtension, out streamids, out warnings);
+
+            return File(streamBytes, mimeType, $"{reportName}.{filenameExtension}");
+        }
+
+        public IActionResult Attendance()
+        {
+            string path = System.IO.Path.Combine(_enviroment.ContentRootPath, "Reports\\AssistanceReport_30Days.rdlc");
+            Stream reportDefinition = System.IO.File.OpenRead(path);
+
+            LocalReport report = new LocalReport();
+            report.EnableExternalImages = true;
+            report.LoadReportDefinition(reportDefinition);
+
+            MemberAssistsDataSet dataSet = new MemberAssistsDataSet();
+            Procedures procedures = new Procedures();
+
+            List<MemberAssists> memberAssistsList = procedures.MembersByAssists();
+
+            Random random = new Random();
+
+            string[] membershipTypes = new string[] { "Basic", "Family", "Gold" };
+
+            foreach (MemberAssists memberAssists in memberAssistsList)
+            {
+                MemberAssistsDataSet.MemberAssistsRow row = dataSet.MemberAssists.NewMemberAssistsRow();
+
+                row.No = memberAssists.No;
+                row.Name = memberAssists.Name;
+                row.LastName = memberAssists.LastName;
+                row.Assists = memberAssists.Assists;
+
+                dataSet.MemberAssists.Rows.Add(row);
+            }
+
+            byte[] streamBytes = null;
+            string mimeType = "";
+            string encoding = "";
+            string filenameExtension = "pdf";
+            string reportName = "MemberAssists";
+            string[] streamids = null;
+            Warning[] warnings = null;
+
+            report.SetParameters(new ReportParameter[] {
+                new ReportParameter("DateFrom", DateTime.Today.AddDays(-30).ToString()),
+                new ReportParameter("DateTo", DateTime.Today.ToString())
+            });
+
+            report.DataSources.Add(new ReportDataSource("MemberAssists", (System.Data.DataTable)dataSet.MemberAssists));
 
             streamBytes = report.Render("PDF", null, out mimeType, out encoding, out filenameExtension, out streamids, out warnings);
 

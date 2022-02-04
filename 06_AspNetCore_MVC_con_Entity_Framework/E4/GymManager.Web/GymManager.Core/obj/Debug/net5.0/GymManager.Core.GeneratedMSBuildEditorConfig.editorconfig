@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = GymManager.Core
-build_property.ProjectDir = C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\E3\GymManager.Web\GymManager.Core\
+build_property.ProjectDir = C:\Users\Edy\Documents\GitHub\DN_Edy_Cota\06_AspNetCore_MVC_con_Entity_Framework\E4\GymManager.Web\GymManager.Core\

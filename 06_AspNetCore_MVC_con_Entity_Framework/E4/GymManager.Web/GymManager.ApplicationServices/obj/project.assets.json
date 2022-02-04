@@ -4362,11 +4362,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E3\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj",
+      "projectUniqueName": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E4\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj",
       "projectName": "GymManager.ApplicationServices",
-      "projectPath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E3\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj",
+      "projectPath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E4\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj",
       "packagesPath": "C:\\Users\\Edy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E3\\GymManager.Web\\GymManager.ApplicationServices\\obj\\",
+      "outputPath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E4\\GymManager.Web\\GymManager.ApplicationServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Edy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4383,11 +4383,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E3\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
-              "projectPath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E3\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj"
+            "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E4\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
+              "projectPath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E4\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj"
             },
-            "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E3\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E3\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj"
+            "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E4\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E4\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj"
             }
           }
         }

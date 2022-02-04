@@ -18,6 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Reports\MemberAssistsDataSet.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MemberAssistsDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Update="Reports\MembersDataSet.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -26,6 +31,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Reports\MemberAssistsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MemberAssistsDataSet.Designer.cs</LastGenOutput>
+    </None>
     <None Update="Reports\MembersDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>MembersDataSet.Designer.cs</LastGenOutput>

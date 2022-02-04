@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pMhtgN/1GZFMs9T7AKMucqF/z3R/q+HzQZGGhDVbnQ4Hg7eaoOkM0IsjWDT/aepNy1mhmpOUwdhqN4trAsaJUg==",
+  "dgSpecHash": "2bsE+tF13Nc5XFqbQEVNGVnUnYQsbOECIxyflDSpdoIqk/FCMmXGgp7OFPl7+vYlrifyHZc8O4DssK6Jd6JVrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E3\\GymManager.Web\\GymManager.Web\\GymManager.Web.csproj",
+  "projectFilePath": "C:\\Users\\Edy\\Documents\\GitHub\\DN_Edy_Cota\\06_AspNetCore_MVC_con_Entity_Framework\\E4\\GymManager.Web\\GymManager.Web\\GymManager.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Edy\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Edy\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

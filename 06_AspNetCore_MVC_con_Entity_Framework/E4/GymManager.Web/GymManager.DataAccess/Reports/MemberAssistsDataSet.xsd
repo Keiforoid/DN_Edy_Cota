@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MemberAssistsDataSet" targetNamespace="http://tempuri.org/MemberAssistsDataSet.xsd" xmlns:mstns="http://tempuri.org/MemberAssistsDataSet.xsd" xmlns="http://tempuri.org/MemberAssistsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MemberAssistsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="MemberAssistsDataSet" msprop:Generator_UserDSName="MemberAssistsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MemberAssists" msprop:Generator_TableClassName="MemberAssistsDataTable" msprop:Generator_TableVarName="tableMemberAssists" msprop:Generator_TablePropName="MemberAssists" msprop:Generator_RowDeletingName="MemberAssistsRowDeleting" msprop:Generator_RowChangingName="MemberAssistsRowChanging" msprop:Generator_RowEvHandlerName="MemberAssistsRowChangeEventHandler" msprop:Generator_RowDeletedName="MemberAssistsRowDeleted" msprop:Generator_UserTableName="MemberAssists" msprop:Generator_RowChangedName="MemberAssistsRowChanged" msprop:Generator_RowEvArgName="MemberAssistsRowChangeEvent" msprop:Generator_RowClassName="MemberAssistsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="No" msprop:Generator_ColumnVarNameInTable="columnNo" msprop:Generator_ColumnPropNameInRow="No" msprop:Generator_ColumnPropNameInTable="NoColumn" msprop:Generator_UserColumnName="No" type="xs:int" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="LastName" msprop:Generator_ColumnVarNameInTable="columnLastName" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_ColumnPropNameInTable="LastNameColumn" msprop:Generator_UserColumnName="LastName" type="xs:string" minOccurs="0" />
+              <xs:element name="Assists" msprop:Generator_ColumnVarNameInTable="columnAssists" msprop:Generator_ColumnPropNameInRow="Assists" msprop:Generator_ColumnPropNameInTable="AssistsColumn" msprop:Generator_UserColumnName="Assists" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
